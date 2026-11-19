@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.udi {
+  width: 95%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: beige;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid gray;
+  padding: 2px 6px;
+  height: 22px;
+}
+
+caption {
+  font-weight: bold;
+  border: 1px solid gray;
+  padding: 3px;
+}
+
+/* Colores originales */
+.cap-turquesa, th.turquesa { background: cadetblue; }
+.cap-naranja { background: orange; }
+.cap-azul { background: steelblue; color: black; }
+th.amarillo { background: khaki; text-align: left; }
+th.turquesa { text-align: left; font-weight: normal; }
+
+/* Casillas para la X */
+td.chk { width: 22px; }
+
+/* Espacios del Aula del Futuro */
+.espacios th { width: 16%; text-align: center; }
+.e-interactua { background: hotpink; }
+.e-investiga { background: mediumpurple; }
+.e-desarrolla { background: red; }
+.e-crea { background: yellowgreen; }
+.e-explora { background: yellow; }
+.e-presenta { background: darkorange; }
+.fila-alta td { height: 40px; }
+
+/* Anchos de columna */
+.competencia th { width: 20%; }
+.competencia td { width: 30%; }
+
+.recursos th { width: 12%; }
+.recursos td { width: 21%; }
+
+.otros-espacios th { width: 15%; }
+
+/* Actividades */
+.actividades { table-layout: fixed; }
+.actividades thead th { background: cadetblue; }
+.actividades td { height: 24px; }
+.actividades th:nth-child(1) { width: 5%; }
+.actividades th:nth-child(2) { width: 8%; }
+.actividades th:nth-child(3) { width: 42%; }
+.actividades th:nth-child(4) { width: 10%; }
+.actividades th:nth-child(5) { width: 13%; }
+.actividades th:nth-child(6) { width: 22%; }
